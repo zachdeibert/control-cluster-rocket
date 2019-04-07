@@ -1060,12 +1060,30 @@ UpdateVariants=1
 PartTypes=0
 
 [NetInfos]
-Net1=NetName=SDA|NetColor=$00FF6EFF
-Net2=NetName=SCL|NetColor=$00FF6EFF
-Net3=NetName=INT1|NetColor=$00FF6E6E
-Net4=NetName=+3V3|NetColor=$006E6EFF
-Net5=NetName=INT2|NetColor=$00FF6E6E
-Net6=NetName=GND|NetColor=$0000BE00
+Net1=NetName=DET1|NetColor=$00FFFF6E
+Net2=NetName=DET8|NetColor=$00FFFF6E
+Net3=NetName=DET6|NetColor=$00FFFF6E
+Net4=NetName=FIRE2|NetColor=$00FFFF6E
+Net5=NetName=FIRE5|NetColor=$00FFFF6E
+Net6=NetName=+7V4|NetColor=$006E6EFF
+Net7=NetName=DET3|NetColor=$00FFFF6E
+Net8=NetName=FIRE3|NetColor=$00FFFF6E
+Net9=NetName=GND|NetColor=$0000BE00
+Net10=NetName=SDA|NetColor=$00FF6EFF
+Net11=NetName=SCL|NetColor=$00FF6EFF
+Net12=NetName=FIRE1|NetColor=$00FFFF6E
+Net13=NetName=DET4|NetColor=$00FFFF6E
+Net14=NetName=FIRE8|NetColor=$00FFFF6E
+Net15=NetName=DET7|NetColor=$00FFFF6E
+Net16=NetName=FIRE4|NetColor=$00FFFF6E
+Net17=NetName=FIRE6|NetColor=$00FFFF6E
+Net18=NetName=INT2|NetColor=$00FF6E6E
+Net19=NetName=DET2|NetColor=$00FFFF6E
+Net20=NetName=FIRE7|NetColor=$00FFFF6E
+Net21=NetName=+3V3|NetColor=$006E6EFF
+Net22=NetName=DET5|NetColor=$00FFFF6E
+Net23=NetName=+5|NetColor=$006E6EFF
+Net24=NetName=INT1|NetColor=$00FF6E6E
 
 [Comparison Options]
 ComparisonOptions0=Kind=Net|MinPercent=75|MinMatch=3|ShowMatch=-1|Confirm=-1|UseName=-1|InclAllRules=0
