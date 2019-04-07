@@ -88,6 +88,27 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=NEDKGRHO
 
+[Document4]
+DocumentPath=control-cluster-test.PcbDoc
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=MIGNYJAI
+
+[GeneratedDocument1]
+DocumentPath=Project Outputs for control-cluster-test\Design Rule Check - control-cluster-test.html
+DItemRevisionGUID=
+
 [Configuration1]
 Name=Sources
 ParameterCount=0
