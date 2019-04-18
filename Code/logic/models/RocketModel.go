@@ -32,7 +32,8 @@ type IgnitionModel struct {
 // separately
 type RocketComponent struct {
 	XMLName  xml.Name `xml:"component"`
-	Code     string   `xml:"code,attr"`
+	ID       int
+	Code     string `xml:"code,attr"`
 	Model    EngineModel
 	Position float32       `xml:"position,attr"`
 	Ignition IgnitionModel `xml:"ignition,attr"`
@@ -40,9 +41,10 @@ type RocketComponent struct {
 
 // RocketModel describes the overall model for the rocket
 type RocketModel struct {
-	XMLName    xml.Name          `xml:"rocket"`
-	CD         float32           `xml:"cd,attr"`
-	Components []RocketComponent `xml:"component"`
+	XMLName       xml.Name          `xml:"rocket"`
+	CD            float32           `xml:"cd,attr"`
+	ReferenceArea float32           `xml:"refA,attr"`
+	Components    []RocketComponent `xml:"component"`
 }
 
 // UnmarshalXMLAttr unmarshals an ignition model from an XML attribute
@@ -85,7 +87,7 @@ func (rc RocketComponent) String() string {
 
 // String converts the RocketModel to a string
 func (rm RocketModel) String() string {
-	return fmt.Sprintf("Rocket with CD=%f, components=%s", rm.CD, rm.Components)
+	return fmt.Sprintf("Rocket with CD=%f, ref. area=%f, components=%s", rm.CD, rm.ReferenceArea, rm.Components)
 }
 
 // Load loads a rocket xml file into memory
@@ -100,6 +102,9 @@ func (rm *RocketModel) Load(filename string) error {
 		return err
 	}
 	err = xml.Unmarshal(bytes, rm)
+	for i := range rm.Components {
+		rm.Components[i].ID = i
+	}
 	return err
 }
 
