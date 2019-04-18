@@ -1,4 +1,4 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="utf-8"?>
 <engine-database>
     <!--
         Data downloaded from thrustcurve.org on 4/17/2019
@@ -75,6 +75,19 @@
                 <eng-data cg="62." f="8.659" m="0.503032" t="1.808"/>
                 <eng-data cg="62." f="3.19" m="0.0964019" t="1.942"/>
                 <eng-data cg="62." f="0." m="0." t="2.06"/>
+            </data>
+        </engine>
+        <engine mfg="Zach" code="A0" Type="reloadable" dia="66.32" len="614.6" initWt="902.316" propWt="0." delays="0"
+                auto-calc-mass="0" auto-calc-cg="0" avgThrust="0." peakThrust="0." throatDia="0." exitDia="0." Itot="0."
+                burn-time="0." massFrac="0." Isp="0." tDiv="-1." tStep="-1." tFix="-1." FDiv="-1." FStep="-1."
+                FFix="-1." mDiv="-1." mStep="-1." mFix="-1." cgDiv="-1." cgStep="-1." cgFix="-1.">
+            <comments>
+                This is the motor that represents the airframe of the rocket.  Instead
+                of modeling the airframe separately in a different format, the airframe
+                is modeled as a motor so that it can be implemented in the code easier.
+            </comments>
+            <data>
+                <eng-data cg="345.48" f="0." m="0." t="0." />
             </data>
         </engine>
     </engine-list>

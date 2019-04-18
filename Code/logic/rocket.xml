@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rocket cd="0.31">
+    <component code="A0" position="0." ignition="rocket" />
+    <component code="F40" position="490." ignition="main" />
+    <component code="A3" position="530." ignition="0" />
+    <component code="A3" position="530." ignition="1" />
+    <component code="A3" position="530." ignition="2" />
+    <component code="A3" position="530." ignition="3" />
+</rocket>
