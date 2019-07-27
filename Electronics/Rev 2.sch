@@ -160,6 +160,7 @@
 <wire x1="3.5" y1="-32.5" x2="-27" y2="-32.5" width="0.127" layer="21"/>
 <wire x1="-27" y1="-32.5" x2="-27" y2="32.5" width="0.127" layer="21"/>
 <wire x1="-27" y1="32.5" x2="3.5" y2="32.5" width="0.127" layer="21"/>
+<text x="-12.7" y="33.02" size="1.27" layer="25">&gt;NAME</text>
 </package>
 <package name="DIP1524W53P254L3302H1000Q24B" urn="urn:adsk.eagle:footprint:12395292/1" locally_modified="yes">
 <description>24-DIP, 2.54 mm (0.10 in) pitch, 15.24 mm (0.60 in) span, 33.02 X 15.00 X 10.00 mm body
