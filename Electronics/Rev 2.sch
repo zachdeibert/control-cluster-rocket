@@ -161,6 +161,14 @@
 <wire x1="-27" y1="-32.5" x2="-27" y2="32.5" width="0.127" layer="21"/>
 <wire x1="-27" y1="32.5" x2="3.5" y2="32.5" width="0.127" layer="21"/>
 <text x="-12.7" y="33.02" size="1.27" layer="25">&gt;NAME</text>
+<circle x="-23" y="29" radius="3" width="0" layer="41"/>
+<circle x="-23" y="29" radius="3" width="0" layer="42"/>
+<circle x="0" y="29" radius="3" width="0" layer="42"/>
+<circle x="0" y="29" radius="3" width="0" layer="41"/>
+<circle x="-23" y="-29" radius="3" width="0" layer="41"/>
+<circle x="0" y="-29" radius="3" width="0" layer="41"/>
+<circle x="-23" y="-29" radius="3" width="0" layer="42"/>
+<circle x="0" y="-29" radius="3" width="0" layer="42"/>
 </package>
 <package name="DIP1524W53P254L3302H1000Q24B" urn="urn:adsk.eagle:footprint:12395292/1" locally_modified="yes">
 <description>24-DIP, 2.54 mm (0.10 in) pitch, 15.24 mm (0.60 in) span, 33.02 X 15.00 X 10.00 mm body
@@ -1025,78 +1033,78 @@
 <net name="INT1" class="0">
 <segment>
 <pinref part="U1" gate="G$1" pin="BCM_17"/>
-<wire x1="81.28" y1="58.42" x2="96.52" y2="73.66" width="0.1524" layer="91"/>
-<label x="83.82" y="73.66" size="1.778" layer="95"/>
+<wire x1="81.28" y1="58.42" x2="96.52" y2="58.42" width="0.1524" layer="91"/>
+<label x="83.82" y="58.42" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="INT2" class="0">
 <segment>
 <pinref part="U1" gate="G$1" pin="BCM_4"/>
-<wire x1="81.28" y1="73.66" x2="96.52" y2="71.12" width="0.1524" layer="91"/>
-<label x="83.82" y="71.12" size="1.778" layer="95"/>
+<wire x1="81.28" y1="73.66" x2="96.52" y2="73.66" width="0.1524" layer="91"/>
+<label x="83.82" y="73.66" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="FIRE_1" class="0">
 <segment>
 <pinref part="U1" gate="G$1" pin="BCM_23"/>
-<wire x1="81.28" y1="43.18" x2="96.52" y2="68.58" width="0.1524" layer="91"/>
-<label x="83.82" y="68.58" size="1.778" layer="95"/>
+<wire x1="81.28" y1="43.18" x2="96.52" y2="43.18" width="0.1524" layer="91"/>
+<label x="83.82" y="43.18" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="FIRE_2" class="0">
 <segment>
 <pinref part="U1" gate="G$1" pin="BCM_25"/>
-<wire x1="81.28" y1="38.1" x2="96.52" y2="66.04" width="0.1524" layer="91"/>
-<label x="83.82" y="66.04" size="1.778" layer="95"/>
+<wire x1="81.28" y1="38.1" x2="96.52" y2="38.1" width="0.1524" layer="91"/>
+<label x="83.82" y="38.1" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="FIRE_3" class="0">
 <segment>
 <pinref part="U1" gate="G$1" pin="BCM_21"/>
-<wire x1="81.28" y1="48.26" x2="96.52" y2="63.5" width="0.1524" layer="91"/>
-<label x="83.82" y="63.5" size="1.778" layer="95"/>
+<wire x1="81.28" y1="48.26" x2="96.52" y2="48.26" width="0.1524" layer="91"/>
+<label x="83.82" y="48.26" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="FIRE_4" class="0">
 <segment>
 <pinref part="U1" gate="G$1" pin="BCM_19"/>
-<wire x1="81.28" y1="53.34" x2="96.52" y2="60.96" width="0.1524" layer="91"/>
-<label x="83.82" y="60.96" size="1.778" layer="95"/>
+<wire x1="81.28" y1="53.34" x2="96.52" y2="53.34" width="0.1524" layer="91"/>
+<label x="83.82" y="53.34" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="DETECT_1" class="0">
 <segment>
 <pinref part="U1" gate="G$1" pin="BCM_24"/>
-<wire x1="81.28" y1="40.64" x2="96.52" y2="58.42" width="0.1524" layer="91"/>
-<label x="83.82" y="58.42" size="1.778" layer="95"/>
+<wire x1="81.28" y1="40.64" x2="96.52" y2="40.64" width="0.1524" layer="91"/>
+<label x="83.82" y="40.64" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="DETECT_2" class="0">
 <segment>
 <pinref part="U1" gate="G$1" pin="BCM_12"/>
-<wire x1="81.28" y1="66.04" x2="96.52" y2="55.88" width="0.1524" layer="91"/>
-<label x="83.82" y="55.88" size="1.778" layer="95"/>
+<wire x1="81.28" y1="66.04" x2="96.52" y2="66.04" width="0.1524" layer="91"/>
+<label x="83.82" y="66.04" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="DETECT_3" class="0">
 <segment>
 <pinref part="U1" gate="G$1" pin="BCM_26"/>
-<wire x1="81.28" y1="35.56" x2="96.52" y2="53.34" width="0.1524" layer="91"/>
-<label x="83.82" y="53.34" size="1.778" layer="95"/>
+<wire x1="81.28" y1="35.56" x2="96.52" y2="35.56" width="0.1524" layer="91"/>
+<label x="83.82" y="35.56" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="DETECT_4" class="0">
 <segment>
 <pinref part="U1" gate="G$1" pin="BCM_13"/>
-<wire x1="81.28" y1="63.5" x2="96.52" y2="50.8" width="0.1524" layer="91"/>
-<label x="83.82" y="50.8" size="1.778" layer="95"/>
+<wire x1="81.28" y1="63.5" x2="96.52" y2="63.5" width="0.1524" layer="91"/>
+<label x="83.82" y="63.5" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="SPEAKER" class="0">
 <segment>
 <pinref part="U1" gate="G$1" pin="BCM_18"/>
-<wire x1="81.28" y1="55.88" x2="96.52" y2="48.26" width="0.1524" layer="91"/>
-<label x="83.82" y="48.26" size="1.778" layer="95"/>
+<wire x1="81.28" y1="55.88" x2="96.52" y2="55.88" width="0.1524" layer="91"/>
+<label x="83.82" y="55.88" size="1.778" layer="95"/>
 </segment>
 </net>
 </nets>

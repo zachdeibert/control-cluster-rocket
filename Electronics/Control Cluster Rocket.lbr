@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="50" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
+<grid distance="1" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="16" fill="1" visible="no" active="yes"/>
@@ -176,6 +176,14 @@
 <wire x1="-27" y1="-32.5" x2="-27" y2="32.5" width="0.127" layer="21"/>
 <wire x1="-27" y1="32.5" x2="3.5" y2="32.5" width="0.127" layer="21"/>
 <text x="-12.7" y="33.02" size="1.27" layer="25">&gt;NAME</text>
+<circle x="-23" y="29" radius="3" width="0" layer="41"/>
+<circle x="-23" y="29" radius="3" width="0" layer="42"/>
+<circle x="0" y="29" radius="3" width="0" layer="42"/>
+<circle x="0" y="29" radius="3" width="0" layer="41"/>
+<circle x="-23" y="-29" radius="3" width="0" layer="41"/>
+<circle x="0" y="-29" radius="3" width="0" layer="41"/>
+<circle x="-23" y="-29" radius="3" width="0" layer="42"/>
+<circle x="0" y="-29" radius="3" width="0" layer="42"/>
 </package>
 <package name="18650">
 <pad name="+2" x="-24.003" y="-2.54" drill="1.8288"/>
